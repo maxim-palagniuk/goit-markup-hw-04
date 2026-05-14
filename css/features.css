@@ -1,0 +1,35 @@
+.features-section {
+    padding: 120px 0;
+}
+
+.features {
+    background-color: #FFFFFF; 
+}
+
+.features .list {
+    display: flex;
+    gap: 24px;
+}
+
+.features .item {
+    flex-basis: 264px;
+}
+
+.features .subtitle {
+    margin: 0;
+    margin-bottom: 8px;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+
+}
+
+.features .text {
+    color: #434455;
+    margin: 0;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em
+}

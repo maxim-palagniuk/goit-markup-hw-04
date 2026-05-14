@@ -1,0 +1,23 @@
+.hero-section {
+    background-color: #2E2F42;
+    padding: 188px 0px;
+}
+
+.hero-button {
+    background-color: #4D5AE5;
+    color: #FFFFFF;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    border-radius: 4px;
+    padding: 16px 32px;
+    margin: 48px auto;
+    margin-bottom: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    gap: 0px;
+    
+}
