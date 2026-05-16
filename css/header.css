@@ -1,5 +1,8 @@
 .header-section {
     border-bottom: 1px solid #E7E9FC;
+    box-shadow: 0 1px 6px 0 rgba(46, 47, 66, 0.08), 
+    0 1px 1px 0 rgba(46, 47, 66, 0.16), 
+    0 2px 1px 0 rgba(46, 47, 66, 0.08);
 }
 
 .header {
@@ -56,7 +59,22 @@
     color: #404BBF;
 }
 
-.header-nav .link:active::after {
+.header-nav .active-link {
+    color: #404BBF;
+}
+
+.header-nav .active-link::after {
+    content: "";
+    display: block;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 4px;
+    border-radius: 2px;
+    background-color: #404BBF;
+}
+
+/* .header-nav .link:active::after {
     content: "";
     position: absolute;
     bottom: 1px;
@@ -64,7 +82,7 @@
     width: 100%;
     height: 4px;
     border-radius: 2px;
-}
+} */
 
 .header-address  .list {
     display: flex;

@@ -15,14 +15,15 @@
     flex-basis: 264px;
 }
 
-.features .icon-border {
+.features-icon-border {
+    display: flex;
+    background-color: #F4F4Fd;
     border: 1px solid #8E8F99;
     border-radius: 4px;
     margin-bottom: 8px;
-}
-
-.features .icon {
-    margin: 24px 100px;
+    height: 112px;
+    justify-content: center;
+    align-items: center;
 }
 
 .features .subtitle {
